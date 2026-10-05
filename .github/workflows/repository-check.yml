@@ -1,0 +1,41 @@
+name: Operation Hydra Checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  repository-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required directories
+        run: |
+          test -d evidence
+          test -d analysis
+          test -d scripts
+          test -d report
+          test -d screenshots
+          test -d tools
+          echo "All required directories exist."
+
+      - name: Check required files
+        run: |
+          test -f README.md
+          test -f case_description.md
+          test -f report/Operation_Hydra_Report.md
+          echo "All required files exist."
+
+      - name: Check Markdown files
+        run: |
+          for file in $(find . -name "*.md" -not -path "./.git/*"); do
+            echo "Checking $file"
+            test -s "$file"
+          done
+
+      - name: Investigation project check
+        run: |
+          echo "Operation Hydra repository checks passed."

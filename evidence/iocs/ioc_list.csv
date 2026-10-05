@@ -1,0 +1,15 @@
+IOC Type,IOC Value,Source,Description,Status
+Domain,apextech-security.example,Email 01,Suspicious simulated sender domain,Simulated
+Domain,apextech-login-security.example,Email 01,Suspicious simulated credential harvesting domain,Simulated
+Domain,apextech-finance.example,Email 02,Suspicious simulated finance domain,Simulated
+Domain,payment-secure.example,Email 03,Suspicious simulated payment domain,Simulated
+URL,https://apextech-login-security.example/verify,Email 01,Simulated credential harvesting URL,Simulated
+URL,https://payment-verification.example/confirm,Email 03,Simulated financial phishing URL,Simulated
+IP,192.0.2.55,Email 03,Documentation-only simulated sending IP,Simulated
+IP,198.51.100.27,Email 02,Documentation-only simulated sending IP,Simulated
+IP,203.0.113.45,Email 01,Documentation-only simulated sending IP,Simulated
+Filename,Invoice_2026.exe,Email 02,Simulated suspicious executable attachment,Simulated
+Hash,SIMULATED_SHA256_HASH,Malware Analysis,Simulated hash representing Invoice_2026.exe,Simulated
+Account,VIRTUAL_MULE_M001,Financial Analysis,Simulated mule account,Simulated
+Wallet,VIRTUAL_WALLET_W001,Financial Analysis,Simulated cryptocurrency wallet,Simulated
+Account,VIRTUAL_ACCOUNT_M002,Financial Analysis,Secondary simulated destination,Simulated

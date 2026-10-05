@@ -1,0 +1,25 @@
+========================================
+OPERATION HYDRA - FINANCIAL TIMELINE
+========================================
+
+14:45:12
+TXN001
+Victim Account → Virtual Mule M001
+Amount: INR 48,500
+Status: SUCCESS
+
+14:48:31
+TXN002
+Virtual Mule M001 → Virtual Wallet W001
+Amount: INR 45,000
+Status: SUCCESS
+
+14:50:44
+TXN003
+Virtual Mule M001 → Virtual Account M002
+Amount: INR 2,500
+Status: SUCCESS
+
+========================================
+END OF TIMELINE
+========================================

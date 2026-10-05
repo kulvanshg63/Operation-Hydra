@@ -1,0 +1,40 @@
+===============================
+OPERATION HYDRA - EMAIL 02
+===============================
+
+From: Finance Department <finance@apextech-finance.example>
+To: accounts@apextech.example
+Date: 28 September 2026 11:37:18 IST
+Subject: URGENT: Outstanding Invoice – Immediate Action Required
+
+Received: from mail.apextech-finance.example (198.51.100.27)
+        by mail.apextech.example
+
+Return-Path: <finance@apextech-finance.example>
+
+Authentication-Results:
+spf=fail
+dkim=fail
+dmarc=fail
+
+Message-ID: <hydra-002@apextech-finance.example>
+
+------------------------------------------------
+
+Dear Accounts Team,
+
+An outstanding invoice requires immediate processing.
+
+Please find the invoice attached and review it immediately.
+
+Attachment:
+Invoice_2026.exe
+
+Please execute the attached file to view the invoice.
+
+Regards,
+Finance Department
+
+===============================
+END OF EMAIL
+===============================

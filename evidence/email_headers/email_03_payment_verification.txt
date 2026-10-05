@@ -1,0 +1,43 @@
+===============================
+OPERATION HYDRA - EMAIL 03
+===============================
+
+From: Payment Gateway <verification@payment-secure.example>
+To: employee@apextech.example
+Date: 28 September 2026 14:21:05 IST
+Subject: Payment Verification Required
+
+Received: from payment-secure.example (192.0.2.55)
+        by mail.apextech.example
+
+Return-Path: <verification@payment-secure.example>
+
+Authentication-Results:
+spf=fail
+dkim=none
+dmarc=fail
+
+Message-ID: <hydra-003@payment-secure.example>
+
+------------------------------------------------
+
+Dear Customer,
+
+A payment of INR 48,500 has been initiated from your account.
+
+If you did not authorize this payment, verify the transaction
+immediately using the link below:
+
+https://payment-verification.example/confirm
+
+Failure to verify the transaction may result in temporary
+account restrictions.
+
+Regards,
+Payment Verification Team
+
+Attachment: None
+
+===============================
+END OF EMAIL
+===============================
